@@ -2,4 +2,8 @@
     <string name="app_name">ShoeShopper</string>
     <string name="items_in_your_cart">Items in your cart</string>
     <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="choose_your_shoe">Choose Your Shoe</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="cart_items">Cart Items</string>
+    <string name="view_cart">View Cart</string>
 </resources>

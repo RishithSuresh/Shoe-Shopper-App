@@ -1,9 +1,8 @@
 package com.example.shoeshopper;
 
-import android.content.Intent;
+
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,13 +12,7 @@ public class CartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
-        Button checkoutButton = findViewById(R.id.buttonCheckout);
-        checkoutButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(CartActivity.this, PaymentActivity.class);
-                startActivity(intent);
-            }
-        });
+        TextView cartItems = findViewById(R.id.textViewCartItems);
+        cartItems.setText("Items in your cart:\n1. Running Shoes\n2. Sports Shoes");
     }
 }
